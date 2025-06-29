@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/beige">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addToDo"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/nameAddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de La Tarea"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/catRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat1"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/Business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat2"/>
+
+            <RadioButton
+                android:id="@+id/Others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat3"/>
+        </RadioGroup>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/finalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textAllCaps="false"
+            android:background="@color/red_pastel"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

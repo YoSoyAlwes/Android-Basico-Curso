@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">testKotlinApp</string>
+
+    <!-- Basico -->
+    <string name="ok">Listo</string>
+    <!--Botones -->
+    <string name="btnMenu1">App de Saludos</string>
+    <string name="btnMenu2">Calculadora IMC</string>
+    <string name="btnMenu3">Aplicacion de Tarea</string>
+    <string name="btnMenu4">App de Super Heroes</string>
+    <string name="btnMenu5">Configuración</string>
+
+    <!-- Mensajes sobre Pesos -->
+    <string name="group1">Peso Inferior Al Normal</string>
+    <string name="group2">Normal</string>
+    <string name="group3">Peso Superior Al Normal</string>
+    <string name="group4">Sobrepeso</string>
+
+    <string name="tip1">Es importante mantener una alimentación equilibrada y consultar con un nutricionista si notas pérdida de peso sin razón aparente.</string>
+    <string name="tip2">¡Felicidades! Estás en un rango saludable. Mantén una dieta balanceada y realiza actividad física regularmente.</string>
+    <string name="tip3">Pequeños cambios en tu estilo de vida pueden marcar una gran diferencia.</string>
+    <string name="tip4">Una mejora en tu alimentación y hábitos puede tener un gran impacto en tu bienestar.</string>
+
+    <!-- App ToDo  -->
+    <string name="titleToDo">Tareas</string>
+    <string name="ToDoCategories">Categorias</string>
+    <string name="ToDoTasks">Tareas</string>
+    <string name="addToDo">Agregar Tarea</string>
+    <string name="cat1">Personal</string>
+    <string name="cat2">Negocios</string>
+    <string name="cat3">Otros</string>
+
+    <!-- SuperHeroe -->
+    <string name="attr1">Inteligencia</string>
+    <string name="attr2">Fuerza</string>
+    <string name="attr3">Velocidad</string>
+    <string name="attr4">Durabilidad</string>
+    <string name="attr5">Poder</string>
+    <string name="attr6">Combate</string>
+
+    <!-- Configuraciones App -->
+    <string name="title1">Bluetooth</string>
+    <string name="desc1">Enciende o Apaga el Bluetooth</string>
+    <string name="title2">Modo Oscuro</string>
+    <string name="desc2">Enciende o Apaga el Modo Oscuro</string>
+    <string name="title3">Volumen</string>
+    <string name="title4">Apagar Vibracion al Llamar</string>
+
+    <!-- Mensajes de Errores -->
+    <string name="Error">Error</string>
+</resources>
